@@ -1,6 +1,11 @@
 <!DOCTYPE html>
-<html>
-	<head>
+	
+        <html lang="en">
+            <head>
+        
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
 		<link href="font/css/all.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 		<link rel="stylesheet" href="style.css">
@@ -23,9 +28,10 @@
 	<div id="grid-container">
 		<header id="page-header">
 		<a href="#" id="mainLogo">LOGO</a>
+        <h1>Søkemotoroptimalisering</h1>
 		<nav>
 			
-			<i class="fas fa-hamburger" onclick="mobilMenu()"></i>
+			<button id="menuBtn" ><i class="fas fa-hamburger"></i></button>
 			<ul id="ham" class="top-menu">
 				<li><a>Link</a></li>
 				<li><a>Link</a></li>
@@ -34,9 +40,9 @@
 				<li class="dropdown-point"> 
 					<a>Oblig 1</a>
 					<ul class="dropdown-main">
-						<li><a>HTML-skjema</a></li>
-						<li><a>Media typer</a></li>
-						<li><a>CSS Layout</a></li>
+						<li><a href="#">HTML-skjema</a></li>
+						<li><a href="#">Media typer</a></li>
+						<li><a href="#">CSS Layout</a></li>
 					</ul>
 				</li>
 				<!-- Her slutter dropdown -->
@@ -45,9 +51,9 @@
 		</nav>
 		</header>
 		<main id="main">
-			<article id="item-1">
+			<article class="item-1">
 				
-					<h1>Overskrift 1</h1>
+					<h2>Nyheter</h2>
 			
 				<img src="https://picsum.photos/400/400">
 				<p>
@@ -55,51 +61,50 @@
 				</p>
 				<a>Les mer</a>
 			</article>
-			<article id="item-2">
+			<article class="item-2">
 				
-					<h1>Overskrift 2</h1>
+					<h2>Nyheter</h2>
 				
-				<img src="https://picsum.photos/400/400">
+				<img src="https://picsum.photos/400/400" alt="">
+				<p>
+					If you break the rules, try to leave or lose the game, you will die. Just like Saaaaw. Oh, wow. That's an intense line of questioning, Snuffles I'll tell you how I feel about school, Jerry. It's a waste of time.
+				</p>
+				<a class="tiny-link" href="#">Les mer</a>
+			</article>
+			<article class="item-3">
+				
+					<h2>Overskrift 3</h2>
+				
+				<img src="https://picsum.photos/400/400" alt="">
 				<p>
 					If you break the rules, try to leave or lose the game, you will die. Just like Saaaaw. Oh, wow. That's an intense line of questioning, Snuffles I'll tell you how I feel about school, Jerry. It's a waste of time.
 				</p>
 				<a>Les mer</a>
 			</article>
-			<article id="item-3">
+			<article class="item-4">
 				
-					<h1>Overskrift 3</h1>
-				
-				<img src="https://picsum.photos/400/400">
-				<p>
-					If you break the rules, try to leave or lose the game, you will die. Just like Saaaaw. Oh, wow. That's an intense line of questioning, Snuffles I'll tell you how I feel about school, Jerry. It's a waste of time.
-				</p>
-				<a>Les mer</a>
-			</article>
-			<article>
-				<header>
-					<h1>Overskrift 1</h1>
-				</header>
-				<img src="https://picsum.photos/400/400">
-				<p>
-					If you break the rules, try to leave or lose the game, you will die. Just like Saaaaw. Oh, wow. That's an intense line of questioning, Snuffles I'll tell you how I feel about school, Jerry. It's a waste of time.
-				</p>
-				<a>Les mer</a>
-			</article>
-			<article>
-				
-					<h1>Overskrift 2</h1>
+					<h2>Overskrift 4</h2>
 			
-				<img src="https://picsum.photos/400/400">
+				<img src="https://picsum.photos/400/400" alt="">
 				<p>
 					If you break the rules, try to leave or lose the game, you will die. Just like Saaaaw. Oh, wow. That's an intense line of questioning, Snuffles I'll tell you how I feel about school, Jerry. It's a waste of time.
 				</p>
 				<a>Les mer</a>
+			</article>
+			<article class="item-5">
+				
+					<h2>Nyheter</h2>
+			
+				<img src="https://picsum.photos/400/400" alt="">
+				<p>
+					If you break the rules, try to leave or lose the game, you will die. Just like Saaaaw. Oh, wow. That's an intense line of questioning, Snuffles I'll tell you how I feel about school, Jerry. It's a waste of time.
+				</p>
+				<a class="tiny-link" href="#">Les mer</a>
 			</article>
 		</main>
 		<aside id="aside">
-			<h1>Side innhold</h1>
-			<section id="video">
-			</section>
+			<h2>Side innhold</h2>
+			
 			<section id="rel-article">
 				<ul>
 					<li><a>Link</a></li>
@@ -116,6 +121,6 @@
 		<footer>
 			Webutvikling 2024
 		</footer>
-	</div>
+
 	</body>
 </html>
